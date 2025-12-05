@@ -1,19 +1,24 @@
 # 🏥 Medic.ai - AI Symptom Analyzer
 
-**RTX 3050 Powered Medical Diagnosis Web App**
+**Rule-based AI diagnostic tool** that analyzes patient symptoms and provides preliminary medical category + risk assessment. Built with Streamlit for instant web deployment.
+
+[![Streamlit App](https://img.shields.io/badge/Live_Demo-Streamlit-brightgreen)](https://medicc-lk5g5csmwv7qpgjf2gqqtz.streamlit.app/)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.38.0-orange)](https://streamlit.io)
 
 ## 🚀 Live Demo
-http://localhost:8501
+Enter symptoms like "chest pain shortness of breath" → **Cardiac (High Risk)**
 
-## Features
-- Real-time symptom analysis
-- Cardiac/Respiratory/Neurological detection
-- Production-ready Streamlit app
-- GPU accelerated (RTX 3050)
+## ✨ Features
+- **5 Medical Categories**: Cardiac, Respiratory, Neurological, Gastrointestinal, Musculoskeletal
+- **Real-time Analysis**: Instant diagnosis + risk level
+- **Responsive UI**: Wide layout optimized for desktop/mobile
+- **Powered by RTX 3050**: GPU-ready for future ML upgrades
 
-## Quick Start
-pip # requirements.txt
-cat > requirements.txt << 'EOF'
-streamlit==1.38.0
-torch==2.6.0
-transformers==4.45.0
+## 🛠️ Tech Stack
+- **Frontend**: Streamlit (Python web framework)
+- **Backend**: Custom rule-based AI engine
+- **Deployment**: Streamlit Cloud (zero-config hosting)
+- **Development**: VS Code + Git + Linux (Ubuntu)
+
+## 📁 Quick Start
