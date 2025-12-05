@@ -22,3 +22,12 @@ Enter symptoms like "chest pain shortness of breath" → **Cardiac (High Risk)**
 - **Development**: VS Code + Git + Linux (Ubuntu)
 
 ## 📁 Quick Start
+# 1. Clone the repo
+git clone https://github.com/your-username/medic.ai.git
+cd medic.ai
+
+# 2. Install requirements
+pip install -r requirements.txt
+
+# 3. Run the app locally
+streamlit run app.py
